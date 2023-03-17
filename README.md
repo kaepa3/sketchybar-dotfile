@@ -25,7 +25,7 @@
 
 ```bash
 cd ~/.configs
-git clone git@github.com:wibus-wee/sketchybar-dotfile.git sketchybar
+git clone git@github.com:kaepa3/sketchybar-dotfile.git sketchybar
 cd sketchybar
 chmod +x plugins/*
 ```
