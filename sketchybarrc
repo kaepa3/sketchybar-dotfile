@@ -8,13 +8,13 @@ ITEM_DIR="$HOME/.config/sketchybar/items"
 
 
 ############## BAR ##############
-sketchybar --bar height=30 \
+sketchybar --bar height=25 \
                  y_offset=0 \
                  blur_radius=0 \
                  position=top \
                  padding_left=4 \
                  padding_right=2 \
-                 margin=10 \
+                 margin=5 \
                  corner_radius=12 \
                  color=0xff1e1d2e \
                  shadow=on \
@@ -22,10 +22,10 @@ sketchybar --bar height=30 \
 
 ############## GLOBAL DEFAULTS ##############
 sketchybar --default updates=when_shown \
-                     icon.font="Hack Nerd Font:Bold:14.0" \
+                     icon.font="Hack Nerd Font:Bold:12.0" \
                      icon.color=0xffECEFF4 \
                      icon.highlight_color=0xffE48FA8 \
-                     label.font="Hack Nerd Font:Bold:14.0" \
+                     label.font="Cica:Bold:12.0" \
                      label.color=0xffECEFF4 \
                      background.corner_radius=5 \
                      background.height=30 \
@@ -38,7 +38,7 @@ source $ITEM_DIR/left/spaces.sh
 
 ############## ITEM DEFAULTS ###############
 
-source $ITEM_DIR/center/spotify.sh
+source $ITEM_DIR/center/bcoin.sh
 
 
 ############## RIGHT ITEMS ##############
